@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 
 
 @Component
-public class TodoItemDataLoader implements CommandLineRunner{
+public class TodoItemDataLoader implements CommandLineRunner {
 
     private final Logger logger = LoggerFactory.getLogger(TodoItemDataLoader.class);
 
@@ -34,5 +34,5 @@ public class TodoItemDataLoader implements CommandLineRunner{
 
         logger.info("Number of TodoItems: {}", todoItemRepository.count());
     }
-      
+    
 }
